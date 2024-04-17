@@ -16,11 +16,11 @@ https://github.com/gradle/gradle
 License: Apache 2.0
 http://www.apache.org/licenses/
 
-Please note, this project may automatically load third party code from external 
-repositories (for example, NPM modules, Composer packages, or other dependencies). 
-If so, such third party code may be subject to other license terms than as set 
-forth above. In addition, such third party code may also depend on and load 
-multiple tiers of dependencies. Please review the applicable licenses of the 
+Please note, this project may automatically load third party code from external
+repositories (for example, NPM modules, Composer packages, or other dependencies).
+If so, such third party code may be subject to other license terms than as set
+forth above. In addition, such third party code may also depend on and load
+multiple tiers of dependencies. Please review the applicable licenses of the
 additional dependencies.
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -215,6 +215,7 @@ org.sonatype.aether:aether-api
 org.sonatype.aether:aether-connector-wagon
 org.sonatype.aether:aether-impl
 org.sonatype.aether:aether-spi
+org.sonatype.aether:aether-service
 org.sonatype.aether:aether-util
 
 ------------------------------------------------------------------------------
@@ -268,6 +269,7 @@ org.ow2.asm:asm-analysis
 org.ow2.asm:asm-commons
 org.ow2.asm:asm-tree
 org.ow2.asm:asm-util
+
 ASM: a very small and fast Java bytecode manipulation framework
  Copyright (c) 2000-2011 INRIA, France Telecom
  All rights reserved.
@@ -443,4 +445,4 @@ org.junit.platform:junit-platform-launcher
 Mozilla Public License 2.0
 https://www.mozilla.org/en-US/MPL/2.0/
 
-org.mozilla:rhino"	
+org.mozilla:rhino"
