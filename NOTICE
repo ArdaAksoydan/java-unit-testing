@@ -163,7 +163,7 @@ http://www.apache.org/licenses/
       with Licensor regarding such Contributions.
 
    6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, java marks, or product names of the Licensor,
+      names, trademarks, service marks, or product names of the Licensor,
       except as required for reasonable and customary use in describing the
       origin of the Work and reproducing the content of the NOTICE file.
 
@@ -216,6 +216,7 @@ org.sonatype.aether:aether-connector-wagon
 org.sonatype.aether:aether-impl
 org.sonatype.aether:aether-spi
 org.sonatype.aether:aether-service
+org.sonatype.aether:aether-util
 
 ------------------------------------------------------------------------------
 3-Clause BSD
@@ -267,7 +268,8 @@ org.ow2.asm:asm
 org.ow2.asm:asm-analysis
 org.ow2.asm:asm-commons
 org.ow2.asm:asm-tree
-org.ow2.asm:asm-service
+org.ow2.asm:asm-util
+
 ASM: a very small and fast Java bytecode manipulation framework
  Copyright (c) 2000-2011 INRIA, France Telecom
  All rights reserved.
@@ -345,10 +347,10 @@ org.slf4j:slf4j-api
  distribute,  sublicense, and/or sell  copies of  the Software,  and to
  permit persons to whom the Software  is furnished to do so, subject to
  the following conditions:
-
+ 
  The  above  copyright  notice  and  this permission  notice  shall  be
  included in all copies or substantial portions of the Software.
-
+ 
  THE  SOFTWARE IS  PROVIDED  ""AS  IS"", WITHOUT  WARRANTY  OF ANY  KIND,
  EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
  MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
@@ -415,8 +417,8 @@ modification, are permitted provided that the following conditions are met:
   1. Redistributions of source code must retain the above copyright notice,
      this list of conditions and the following disclaimer.
 
-  2. Redistributions in binary form must reproduce the above copyright
-     notice, this list of conditions and the following disclaimer in
+  2. Redistributions in binary form must reproduce the above copyright 
+     notice, this list of conditions and the following disclaimer in 
      the documentation and/or other materials provided with the distribution.
 
   3. The names of the authors may not be used to endorse or promote products
